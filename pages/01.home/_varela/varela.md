@@ -1,7 +1,7 @@
 ---
 title: Varela
 menu: Varela
-logo: logo-hager.png
+logo: logo.png
 videos:
     -
         url: 'https://www.youtube.com/embed/4QmkhBKtUAU?autoplay=1&wmode=opaque&fs=1'
@@ -15,7 +15,7 @@ slider:
         link_url: '#bio'
     -
         title: 'Le client'
-        content: 'Quel que soit le type de chantier, vous convenez avec nous, de la première visite technique. Celle-ci permet de ne rien laisser au hasard, dès le 1er jour.'
+        content: 'Quel que soit le type de chantier, Vous planifiez avec nous une première visite technique. Celle-ci permet de ne rien laisser au hasard, dès le 1er jour.'
         link_text: 'Autres produits demandés'
         link_url: 'https://www.legrand.fr/pro/catalogue'
     -

@@ -2,8 +2,8 @@
   <section class="hero" id="hero">
     <div class="texture-overlay"></div>
     <div class="container">
-      <div class="row nav-wrapper">
-        <div class="col-md-6 col-sm-6 col-xs-6 text-left">
+      <div class="row nav-wrapper" style="margin-top: 20px;">
+        <div class="col-md-6 col-sm-6 col-xs-6 text-left" style="margin-top: -40px;">
           <a href="#varela"><img src="{{ url('theme://img/logo-black.png') }}" alt="varela-electricite Logo"></a>
         </div>
         <div class="col-md-6 col-sm-6 col-xs-6 text-right navicon">
@@ -12,6 +12,7 @@
       </div>
       <div class="row hero-content">
         <div class="col-md-12">
+          <br />
           <h1 class="animated fadeInDown">{{ site.header.title }}</h1>
 
           {% for button in site.header.buttons %}

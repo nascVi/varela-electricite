@@ -1,6 +1,7 @@
 ---
 title: Merci
 menu: Merci
+hidemenu: true
 ---
 
 # Merci de votre visite. Site développement durable.
