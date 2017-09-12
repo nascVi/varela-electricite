@@ -3,85 +3,85 @@ title: Ouvrage
 menu: Ouvrage
 screenshots:
     -
-        image: 's - Living - Plafond.jpg'
-        large_image: 'Living - Plafond.jpg'
-        description: 'Living immaculé'
+        image: chaufroi-s.png
+        large_image: chaufroi.png
+        description: 'Chaleur Design'
         icon: eye
     -
-        image: 's - Cuisine - Spots.jpg'
-        large_image: 'Cuisine - Spots.jpg'
-        description: 'Spots cuisine éclairée'
-        icon: home
-    -
-        image: 's - Compteur - Disjoncteur.jpg'
-        large_image: 'Compteur - Disjoncteur.jpg'
-        description: 'Compteur disjoncteur'
-        icon: bolt
-    -
-        image: 's - Cuisine.jpg'
-        large_image: Cuisine.jpg
-        description: 'Cuisine moderne'
-        icon: lightbulb-o
-    -
-        image: 's - Installation - Eco - Energie.jpg'
-        large_image: 'Installation - Eco - Energie.jpg'
-        description: 'Lustres Eco-énergie'
+        image: cuis-s.png
+        large_image: cuis.png
+        description: 'Cuisine Eclairée'
         icon: recycle
     -
-        image: 's - Spots - Installation.jpg'
-        large_image: 'Spots - Installation.jpg'
+        image: disposecuri-s.png
+        large_image: disposecuri.png
+        description: 'Standard de Sécurité'
+        icon: bolt
+    -
+        image: escalumin-s.png
+        large_image: escalumin.png
+        description: 'Luminaires Escalier'
+        icon: lightbulb-o
+    -
+        image: extervue-s.png
+        large_image: extervue.png
+        description: 'Vue Maison Extérieur'
+        icon: home
+    -
+        image: installavi-s.png
+        large_image: installavi.png
         description: 'Travaux Spots'
         icon: cogs
     -
-        image: 's - Travaux - Pavillon.jpg'
-        large_image: 'Travaux - Pavillon.jpg'
+        image: instamod-s.png
+        large_image: instamod.png
         description: 'Travaux Pavillon'
         icon: wrench
     -
-        image: 's - Spot - Gazon.jpg'
-        large_image: 'Spot - Gazon.jpg'
-        description: 'Spots gazon'
-        icon: moon-o
-    -
-        image: 's - Visiophone.jpg'
-        large_image: Visiophone.jpg
-        description: Visiophone
+        image: interinter-s.png
+        large_image: interinter.png
+        description: Visiophonie
         icon: bell
     -
-        image: 's - Travaux - Escaliers.jpg'
-        large_image: 'Travaux - Escaliers.jpg'
+        image: livininstal-s.png
+        large_image: livininstal.png
+        description: 'Installation Salon Véranda'
+        icon: moon-o
+    -
+        image: luminescext-s.png
+        large_image: luminescext.png
         description: 'Travaux escaliers'
         icon: sort-amount-asc
     -
-        image: 's - Plan - Travaux.jpg'
-        large_image: 'Plan - Travaux.jpg'
-        description: 'Travaux extérieur'
-        icon: exclamation-triangle
-    -
-        image: 's - Spots - Plafond.jpg'
-        large_image: 'Spots - Plafond.jpg'
-        description: 'Plafond salon'
-        icon: home
-    -
-        image: 's - Spots - Marches.jpg'
-        large_image: 'Spots - Marches.jpg'
-        description: 'Spots marches'
+        image: lumingaz-s.png
+        large_image: lumingaz.png
+        description: 'Luminaire Gazon'
         icon: lightbulb-o
     -
-        image: 's - Domotique - Btcino.jpg'
-        large_image: 'Domotique - Btcino.jpg'
-        description: 'Domotique Btcino'
+        image: nouvebura-s.png
+        large_image: nouvebura.png
+        description: 'Travaux Plafond'
+        icon: exclamation-triangle
+    -
+        image: sallavi-s.png
+        large_image: sallavi.png
+        description: 'Salle A Vivre'
+        icon: home
+    -
+        image: travpla-s.png
+        large_image: travpla.png
+        description: 'Travaux Vue Extérieur'
+        icon: home
+    -
+        image: visiop-s.png
+        large_image: visiop.png
+        description: Visiophone
         icon: at
     -
-        image: 's - Chaud - Froid - Design.jpg'
-        large_image: 'Chaud - Froid - Design.jpg'
-        description: 'Chaleur Design'
+        image: vuexterchan-s.png
+        large_image: vuexterchan.png
+        description: 'Vue Chantier Exterieur'
         icon: sun-o
-    -
-        image: 's - Vue - Eterieur.jpg'
-        large_image: 'Vue - Eterieur.jpg'
-        description: 'Vue - Exterieur'
-        icon: home
 ---
 
 # Galerie - Ouvrage
