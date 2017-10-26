@@ -1,0 +1,35 @@
+    <section class="showcase" id="bio">
+      <div class="showcase-wrap">
+        <div class="texture-overlay"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="device wp3">
+                <div class="device-content">
+                  <div class="showcase-slider">
+                    <ul class="slides" id="showcaseSlider">
+                     {% for item in page.media.images %}
+                       <li>
+                        <img src="{{ item.url }}" alt="Device Content Image">
+                      </li>
+                    {% endfor %}
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+                {{ page.content }}
+              <blockquote class="team-quote">
+                <div class="avatar"><img src="{{ url('theme://img/avatar.png') }}" alt="User Avatar"></div>
+                <p>{{ page.header.bio }}</p>
+                <div class="logo-quote">
+                  <a href="mailto: varenergie@gmail.com"><img src="{{ url('theme://img/iconMail.png') }}" alt="linkJV"></a>
+                </div>
+              </blockquote>
+              <a href="#photos" class="download-btn">Nos réalisations<i class="fa fa-eye"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
