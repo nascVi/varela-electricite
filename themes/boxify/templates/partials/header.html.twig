@@ -1,0 +1,28 @@
+<header>
+  <section class="hero" id="hero">
+    <div class="texture-overlay"></div>
+    <div class="container">
+      <div class="row nav-wrapper" style="margin-top: 20px;">
+        <div class="col-md-6 col-sm-6 col-xs-6 text-left" style="margin-top: -40px;">
+          <a href="#varela"><img src="{{ url('theme://img/logo-black.png') }}" alt="varela-electricite Logo"></a>
+          <p style="margin-left: 10px;">
+          <small style="color: #00d0e7;"><i>Une alternative fiable</i></small>
+          </p>
+        </div>         
+        <div class="col-md-6 col-sm-6 col-xs-6 text-right navicon">
+          <p>Naviguer</p><a id="trigger-overlay" class="nav_slide_button nav-toggle" href="#"><span></span></a>
+        </div>
+      </div>
+      <div class="row hero-content" style="margin-top: -50px;">
+        <div class="col-md-12">
+          <br />
+          <h1 class="animated fadeInDown">{{ site.header.title }}</h1>
+
+          {% for button in site.header.buttons %}
+              <a href="{{ button.link }}" class="{{ button.class }}" style="margin-top: -10px;">{{ button.text }} {% if button.icon %}<i class="fa fa-{{ button.icon }}"></i>{% endif %}</a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </section>
+</header>

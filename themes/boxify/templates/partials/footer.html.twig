@@ -1,0 +1,26 @@
+﻿<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <h1 class="footer-logo">
+                    <a href="#hero"><img src="{{ url('theme://img/logVFoot.png') }}" alt="Footer Logo"></a>
+                </h1>
+              <p>©2016/17 -  <a href="#" style="color: #f6f6f9;">lP</a> - <a href="http://www.societe.com/societe/monsieur-jackson-varela-790972996.html" onclick="window.open(this.href); return false;" style="color: #a3a3a3;">varela-electricite.fr</a> - <a style="color: #435e74;" href="https://tympanus.net/codrops/2015/01/27/freebie-boxify-one-page-website-template/">Boxify</a> - <a style="color: #c75190;" href="https://getgrav.org">Grav</a></p>
+            </div>
+            <div class="col-md-7">
+                <ul class="footer-nav">
+                    {% set show_onpage_menu = header.onpage_menu == true or header.onpage_menu is null %}
+                        {% macro pageLinkName(text) %}{{ text|lower|replace({' ':'_'}) }}{% endmacro %}
+                            {% for module in page.collection() %}
+                               {% if not module.header.hidemenu %}
+                                {% set current_module = (module.active or module.activeChild) ? 'active' : '' %}
+                                    <li class="{{ current_module }}">
+                                        <a href="#{{ _self.pageLinkName(module.menu) }}">{{ module.menu }}</a>
+                                    </li>
+                                {% endif %}
+                            {% endfor %}
+                            </ul>
+                       </div>
+                    </div>
+                </div>
+            </footer>
